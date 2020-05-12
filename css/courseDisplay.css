@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding:3%;
+    padding-right:0px;
+}
+.sizing{
+	width:100%;
+}
+.sizing .courseheader{
+	background-color:#33c9ff;
+    color:#fff;
+}
+.sizing .coursefooter{
+	background-color:#33c9ff;
+    color:#fff;
+}
+.coursefooter *{
+  float:left;
+ 
+}
+.coursefooter {
+ margin-top:5%;
+ 
+}
+.sizing img{
+  width:100%;
+  margin-top:10px;
+ 
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.coursefooter *{
+  margin-top:2%;
+}
+.coursefooter p{
+  float:left;
+  font-size:70%;
+  margin-top:6%;
+}
+
+.coursefooter input{
+  float:right;
+  font-size:70%;
+}

@@ -1,0 +1,20 @@
+@media (min-width:992px) {
+  #navbarSupportedContent{
+    position: absolute;
+    right:1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .social{
+    width: 22rem;
+    position: absolute;
+    right: 1rem;
+  }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .aboveSpaceCart{
+    margin-top:18% !important;
+  }
+}
